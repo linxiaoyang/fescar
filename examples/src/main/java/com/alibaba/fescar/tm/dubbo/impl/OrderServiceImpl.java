@@ -99,7 +99,7 @@ public class OrderServiceImpl implements OrderService {
     }
 
     private int calculate(String commodityId, int orderCount) {
-        return 200 * orderCount;
+        return 2 * orderCount;
     }
 
     public static void main(String[] args) {
